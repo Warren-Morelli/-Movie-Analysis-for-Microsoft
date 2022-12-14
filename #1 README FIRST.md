@@ -1,12 +1,19 @@
 ## My repository and its contents
 
-├── README FIRST.md     <- The README for this repo branch explaining it's contents - you're reading it now
-├── Draft Notebook.ipynb      <- First analysis of the data in Jupyter notebook
-├── Final Notebook, Factors That Determine a Successful Film.ipynb     <- Presentable analysis of data in Jupyter notebook
-├── PDF Slides - Factors That Determine Successful Film.pdf    <- PDF version of project presentation
-├── Recording - Factors That Determine Successful Film.mp4    <- Recording explaination of project presentation
-├── zippedData & zippedData2    <- Both sourced externally and generated from code
-└── images    <- Both sourced externally and generated from code
+├── README FIRST.md  <- The README for this repo branch explaining it's contents - you're reading it now
+
+├── Draft Notebook.ipynb  <- First analysis of the data in Jupyter notebook
+
+├── Final Notebook, Factors That Determine a Successful Film.ipynb  <- Presentable analysis of data in Jupyter notebook
+
+├── PDF Slides - Factors That Determine Successful Film.pdf <- PDF version of project presentation
+
+├── Recording - Factors That Determine Successful Film.mp4 <- Recording explaination of project presentation
+
+├── zippedData & zippedData2 <- Both sourced externally and generated from code
+
+└── images <- Both sourced externally and generated from code
+
 
 
 Please review our full analysis in *Final Notebook, Factors That Determine a Successful Film.ipynb* or my presentation *Recording - Factors That Determine Successful Film.mp4*
