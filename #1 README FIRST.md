@@ -1,10 +1,10 @@
-## My repository and its contents
+# My repository and its contents
 
 ├── README FIRST.md  <- The README for this repo branch explaining it's contents - you're reading it now
 
-├── Draft Notebook.ipynb  <- First analysis of the data in Jupyter notebook
+├── Draft Notebook.ipynb  <- First analysis of my data in Jupyter notebook
 
-├── Final Notebook, Factors That Determine a Successful Film.ipynb  <- Presentable analysis of data in Jupyter notebook
+├── Final Notebook, Factors That Determine a Successful Film.ipynb  <- Presentable analysis of my data in Jupyter notebook
 
 ├── PDF Slides - Factors That Determine Successful Film.pdf <- PDF version of project presentation
 
@@ -16,7 +16,7 @@
 
 
 
-Please review our full analysis in *Final Notebook, Factors That Determine a Successful Film.ipynb* or my presentation *Recording - Factors That Determine Successful Film.mp4*
+Please review my full analysis in *Final Notebook, Factors That Determine a Successful Film.ipynb* or my presentation *Recording - Factors That Determine Successful Film.mp4*
 
 For any additional questions, please contact Warren Morelli at warren@momo-mktg.com
 
@@ -24,7 +24,7 @@ For any additional questions, please contact Warren Morelli at warren@momo-mktg.
 - - -
 
 
-# Title
+## Title - Factors That Determine Successful Film
 
 **Authors**: Warren Morelli
 
@@ -32,20 +32,20 @@ For any additional questions, please contact Warren Morelli at warren@momo-mktg.
 
 In this project, I analysed a wide range of film databases from various sources (Bom, IMDb, etc), to come up with an understanding of what factors make a film successful and I have translated that into an actionable plan to help the decision-makers at Microsoft decide what type of film to create. 
 
-After analysing the data, I came to the conclusion that the 3 main factors that determine whether a movie is successful are genre, release month and film runtime. Here are a couple of main points from my findings below:
+After analysing the data, I have come to the conclusion that the main factors that determine whether a movie is successful are genre, release month, film runtime and production budget. Here are a couple of main points from my findings below:
 
-Adventure is the genre that produces the most revenue, followed by action and sci-fi. 
-Movies released in June-July and November-December are more successful, most likely due to the school holidays. 
-And movies with a runtime of 90 - 150 minutes have the greatest success.
+Musical and fantasy are the genres that produce the highest profit, followed by action, adventure and animation. 
+Films released in May-July and November are more successful, this is related to the most popular holidays in the US. 
+Films with a runtime of 100 - 140 minutes are the most profitable. And there is a strong correlation between films with higher production budgets and films that produce higher revenue.
 
 
 ## Business Problem
 
-Microsoft wants to get the most out of their investment in the movie industry. In order for them to achieve this, I have been tasked with determining the three most recommendations on what type of films they should create. The following Questions were addressed:
+Microsoft wants to get the most out of their investment in the movie industry. In order for them to achieve this, I have been tasked with determining what type of films they should create. The following questions were addressed:
 
 1- What are the most crucial factors that determine whether a movie is most profitable?
 
-2- Is there enough data to be able to anaylise these factors
+2- Is there enough data to be able to analyse these factors?
 
 3- What are the most successful genres?
 
@@ -53,26 +53,25 @@ Microsoft wants to get the most out of their investment in the movie industry. I
 
 5- Which months are films the most successful?
 
+6- Does a higher production budget equal higher revenue?
+
 
 ## Data
 
-My data was taken from Bom, IMDb movie datasets which included films dated from 2010 and later.
+My data was taken from Bom, IMDb & TN movie datasets which included films dated from 2010 and later.
 
-I first started by dropping all of the variables that I thought wouldn’t effect the end result, producing the most revenue. A couple of the rows in my dataset were missing values. Luckily, I had a very large data base so I could afford to drop those one where need be. 
-
-I added the domestic gross and forign gross together to find the total gross so I could compare that to the months, genres and runtime. There were quite a few missing runtime data values, too many to delete, so I found if I changed those missing values to the median, it didn’t effect the outcome and I wouldn’t lose data.
+The films revenues came from TN & Bom. This was connected to the IMBd data to compare the revenue and profits with the runtimes, release dates, genres and production budget, as I found these to be the most crucial factors for a successful film.
 
 
 ## Results
 
-My above analysis leads me to 3 clear reccommendations I can confidenly provide that will produce the most profitable film
+My analysis leads me to 4 clear recommendations I can confidently provide that will produce the most successful film.
 
-1. Choose one of these 3 genres are the best performers. Adventure is the leader closely followed by Action and Sci-Fi.
+1. Musical and fantasy are the genres that produce the highest profit, followed by action, adventure and animation.
 
-2. The ideal runtime for a film is between 90 - 150 minutes.
+2. The ideal runtime for a film is between 100 - 140 minutes.
 
-3. The months that generate the most revenue are June-July and November-December. These dates seem to aligm with 2 biggest school holidays of the year which could explain the increase in revenue.
+3. The months that generate the most revenue are May to July and November. These dates seem to align with the 3 biggest holidays in the US which can explain the increase in revenue.
 
-***
-
-Further anaylsis to compare profit margins with revenue could uncover more factors to determine successful films.   
+4. There is a strong correlation between a higher production budget and higher revenue simply meaning, the higher your production budget, the more revenue the film will produce.
+ 
